@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,13 @@
   --cor--primaria: #ff6311;
   --cor--secundaria: #2c2b2b;
   --espacamento: 0px 25px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
 }
 
 header {
@@ -183,4 +189,45 @@ section {
 .figure-amazing img {
   width: 100%;
   height: 100%;
+}
+
+.section-statistcs {
+  padding: 125px 25px;
+  background-color: var(--cor--secundaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 125px;
+  color: white;
+}
+
+.section-statistcs .row1 {
+  padding: 0px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  color: rgb(175, 175, 175);
+}
+
+.section-statistcs .row2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistcs-sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-herbert {
+  background-image: url("../img/sec-4.png");
+  height: 974px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
