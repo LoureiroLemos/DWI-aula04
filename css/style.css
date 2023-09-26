@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: Nexa;
+  src: url(../fonts/Nexa-Trial-Book.ttf);
+}
 
 * {
   margin: 0;
@@ -7,7 +11,7 @@
   --cor--primaria: #ff6311;
   --cor--secundaria: #2c2b2b;
   --espacamento: 0px 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nexa", "Roboto", sans-serif;
   font-size: 16px;
 }
 
@@ -227,7 +231,72 @@ section {
 .section-herbert {
   background-image: url("../img/sec-4.png");
   height: 974px;
+  width: 1349px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.quotation p {
+  font-size: 20px;
+}
+
+.subscribe {
+  padding: 110px 300px;
+  background-color: var(--cor--primaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.subscribe p {
+  color: white;
+}
+
+.button-form {
+  color: white;
+  background-color: var(--cor--secundaria);
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+  height: 22px;
+  font-family: 12px;
+  border: none;
+}
+
+footer {
+  padding: 50px 25px;
+  background-color: var(--cor--secundaria);
+  display: flex;
+  width: 100%;
+}
+
+footer .col-musicology {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 75%;
+  padding-right: 250px;
+}
+
+footer .footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+footer .col {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 20px;
 }
